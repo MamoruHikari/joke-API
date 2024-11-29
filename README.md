@@ -19,7 +19,7 @@ This API allows you to fetch random jokes, retrieve jokes by ID or type, add new
   - [PATCH /jokes/:id](#patch-jokesid)  
   - [DELETE /jokes/:id](#delete-jokesid)  
   - [DELETE /all](#delete-all)  
-- [Testing](#testing)  
+- [Details](#details)  
 
 ---
 
@@ -230,7 +230,7 @@ This API allows you to fetch random jokes, retrieve jokes by ID or type, add new
 
 ---
 
-## Testing  
+## Details  
 
 Use [Postman](https://www.postman.com/) or [curl](https://curl.se/) to test the API endpoints.  
 - For POST, PUT, and PATCH requests, ensure to send data in the request body as JSON or URL-encoded format.  
