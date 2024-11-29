@@ -232,6 +232,5 @@ This API allows you to fetch random jokes, retrieve jokes by ID or type, add new
 
 ## Details  
 
-Use [Postman](https://www.postman.com/) or [curl](https://curl.se/) to test the API endpoints.  
 - For POST, PUT, and PATCH requests, ensure to send data in the request body as JSON or URL-encoded format.  
 - For DELETE `/all`, include the master key as a query parameter (`key`).
