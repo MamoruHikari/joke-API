@@ -63,8 +63,8 @@ This API allows you to fetch random jokes, retrieve jokes by ID or type, add new
 - **Response:**  
   ```json
   {
-    "id": 1,
-    "jokeText": "Why don't scientists trust atoms? Because they make up everything.",
+    "id": 67,
+    "jokeText": "I'm reading a book about anti-gravity. It's impossible to put down!",
     "jokeType": "Science"
   }
   ```
