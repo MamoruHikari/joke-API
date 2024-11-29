@@ -98,12 +98,22 @@ This API allows you to fetch random jokes, retrieve jokes by ID or type, add new
   ```http
   GET http://localhost:3000/filter?type=Science
   ```
-- **Response:**  
+  - **Response:**  
   ```json
   [
     {
       "id": 1,
       "jokeText": "Why don't scientists trust atoms? Because they make up everything.",
+      "jokeType": "Science"
+    },
+    {
+      "id": 5,
+      "jokeText": "Why did the physicist break up with the biologist? There was no chemistry.",
+      "jokeType": "Science"
+    },
+    {
+      "id": 12,
+      "jokeText": "What do you call an acid with an attitude? A-mean-o acid.",
       "jokeType": "Science"
     }
   ]
