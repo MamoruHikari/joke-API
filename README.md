@@ -93,12 +93,14 @@ This API allows you to fetch random jokes, retrieve jokes by ID or type, add new
 
 **Retrieve jokes by type.**  
 - **Query Parameters:**  
-  - `type`: Filter by joke type (e.g., "Science", "Puns", "Wordplay", "Food", "Sports", "Movies", "Math").  
+  - `type`: Filter by joke type (e.g., "Science", "Puns", "Wordplay", "Food", "Sports", "Movies", "Math").
+ 
 - **Example Request:**  
   ```http
   GET http://localhost:3000/filter?type=Science
   ```
-  - **Response:**  
+  
+- **Response:**  
   ```json
   [
     {
